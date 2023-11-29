@@ -8,7 +8,7 @@ const headingFonts = localFont({
   src: '../public/fonts/font.woff2',
 })
 
-export default function Logo() {
+export function Logo() {
   return (
     <Link href="/">
       <div className="hidden items-center gap-x-2 transition hover:opacity-75 md:flex">
